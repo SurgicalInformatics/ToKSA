@@ -446,3 +446,5 @@ findings_gallstones_toksa_gold_standard = findings_data %>%
 #### Part 7 Validate results ####
 
 # This final step requires validation of the ToKSA output against a ground truth derived from the annotation of full reports
+# This will require annotation of full reports which can then be compared to ToKSA
+# Data derived from ToKSA can then be used to train convolutional neural networks assuming ToKSA results in accurate data
